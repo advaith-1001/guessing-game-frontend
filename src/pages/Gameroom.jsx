@@ -90,7 +90,7 @@ function GameRoom() {
 
 
     return(
-        <div className="flex-col h-screen w-screen flex items-center">
+        <div className="text-blue-300 bg-blue-700 flex-col h-screen w-screen flex items-center">
             <h1 className="font-bungee text-4xl text-center py-5">Game Room</h1>
             <h2 className="font-bungee text-2xl text-center py-2">CODE: {roomCode}</h2>
             <h3 className="font-bungee text-2xl text-center py-5">Players: </h3>

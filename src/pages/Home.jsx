@@ -64,11 +64,11 @@ function Home() {
 
 
     return(
-        <div className="flex-col h-screen w-screen flex justify-center items-center">
-        <h1 className="font-bungee text-7xl">GUESSBLITZ</h1>
-            <div className="flex flex-col gap-10 items-center justify-center py-50">
+        <div className="flex-col h-screen w-screen flex justify-center items-center bg-blue-700">
+        <h1 className="font-bungee text-7xl text-blue-400">GUESSBLITZ⚡</h1>
+            <div className="text-blue-300 flex flex-col gap-10 items-center justify-center py-50">
                 <input type="text" value={localUsername} onChange={(e) => setLocalUsername(e.target.value)} placeholder="USERNAME" className="border-2 w-80 h-15 rounded-lg text-2xl px-2 text font-bungee placeholder:username "/>
-                <div className="flex gap-4 items-center">
+                <div className="flex gap-4 items-center justify-center flex-wrap">
                     <button onClick={createRoom} className="border-2 font-bungee cursor-pointer px-3 py-2 text-2xl rounded-lg">Create Room</button>
                     <p className="font-bungee text-2xl">Or</p>
                     <button onClick={joinRoom} className="border-2 font-bungee cursor-pointer px-3 py-2 text-2xl rounded-lg">Join Room</button>
